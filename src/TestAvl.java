@@ -1,7 +1,14 @@
+////∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗*
+//∗ @file: TestAvl.java
+//∗ @description: This program tests my AVL tree to see if it works
+//∗ @author: Alan Lin
+//∗ @date: October 18, 2025
+///∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
+
 public class TestAvl {
     // Test program
     public static void main( String [ ] args ) {
-        AvlTree<Integer> t = new AvlTree<>();
+        AVLTree<Integer> t = new AVLTree<>();
         final int SMALL = 40;
         final int NUMS = 1000000;  // must be even
         final int GAP = 37;
