@@ -60,6 +60,14 @@ You will then use your original ArrayList to search for each element in your BST
 
 For each of the insertion and search operations, you will use `System.nanoTime()` to calculate the time it takes to run the insertion and search operations for the sorted and randomized BST and AVL Trees. Your program will print out the number of lines and the times to insert and search for BST and AVL Trees to the screen in a human-readable format (i.e., nice to look at) and also separtely to a file named `output.txt` in CSV format. Each time the program runs, it will append the timing results to `output.txt`.
 
+GPT Documentation
+1) Prompt: For each of the insertion and search operations, you will use System.nanoTime() to calculate the time it takes to run the insertion and search operations for the sorted and randomized BST and AVL Trees. Your program will print out the number of lines and the times to insert and search for BST and AVL Trees to the screen in a human-readable format (i.e., nice to look at) and also separtely to a file named output.txt in CSV format. Each time the program runs, it will append the timing results to output.txt. what is meant by a text file in csv format?
+
+2) <img width="883" height="558" alt="Screenshot 2025-10-19 at 3 56 26 PM" src="https://github.com/user-attachments/assets/0fb3c854-e7f9-48da-a494-e5808262e6fd" />
+
+3) This was useful, I was able to use this to figure out the .exists() method and be able to format the output in a way that I'm satisfied with regarding the results of this "CSV" format
+
+
 ## 5. Graph and analyze the insertion and search operation for BST and AVL Trees**
 
 Run your program several times for different number of lines of your dataset, N, by choosing different values of the second command line argument. After several runs, your `output.txt` file will be filled with timing data.
