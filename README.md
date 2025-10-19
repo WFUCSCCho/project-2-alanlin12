@@ -60,6 +60,14 @@ You will then use your original ArrayList to search for each element in your BST
 
 For each of the insertion and search operations, you will use `System.nanoTime()` to calculate the time it takes to run the insertion and search operations for the sorted and randomized BST and AVL Trees. Your program will print out the number of lines and the times to insert and search for BST and AVL Trees to the screen in a human-readable format (i.e., nice to look at) and also separtely to a file named `output.txt` in CSV format. Each time the program runs, it will append the timing results to `output.txt`.
 
+GPT Documentation
+1) Prompt: For each of the insertion and search operations, you will use System.nanoTime() to calculate the time it takes to run the insertion and search operations for the sorted and randomized BST and AVL Trees. Your program will print out the number of lines and the times to insert and search for BST and AVL Trees to the screen in a human-readable format (i.e., nice to look at) and also separtely to a file named output.txt in CSV format. Each time the program runs, it will append the timing results to output.txt. what is meant by a text file in csv format?
+
+2) <img width="883" height="558" alt="Screenshot 2025-10-19 at 3 56 26 PM" src="https://github.com/user-attachments/assets/0fb3c854-e7f9-48da-a494-e5808262e6fd" />
+
+3) This was useful, I was able to use this to figure out the .exists() method and be able to format the output in a way that I'm satisfied with regarding the results of this "CSV" format
+
+
 ## 5. Graph and analyze the insertion and search operation for BST and AVL Trees**
 
 Run your program several times for different number of lines of your dataset, N, by choosing different values of the second command line argument. After several runs, your `output.txt` file will be filled with timing data.
@@ -67,16 +75,20 @@ Run your program several times for different number of lines of your dataset, N,
 Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot the running time (in seconds) and rate (in seconds per node) vs. N for each case, comparing the BST and AVL Trees (i.e., two lines per graph). Take a screenshot of your graph and put them here by modifying this file, committing, and pushing it to this repository.
 
 BST vs. AVL Tree running time (insertion):
-(insert here)
+<img width="481" height="297" alt="Screenshot 2025-10-19 at 4 06 18 PM" src="https://github.com/user-attachments/assets/e889a169-c4fe-4dd4-8731-c21966e34314" />
+
 
 BST vs. AVL Tree running time (search):
-(insert here)
+<img width="482" height="302" alt="Screenshot 2025-10-19 at 4 06 33 PM" src="https://github.com/user-attachments/assets/951f43ae-c398-4076-8b59-875c816e986b" />
+
 
 BST vs. AVL Tree running rate (insertion):
-(insert here)
+<img width="482" height="296" alt="Screenshot 2025-10-19 at 4 06 49 PM" src="https://github.com/user-attachments/assets/49e5d7e0-c78e-44ac-b24e-563921e709ee" />
+
 
 BST vs. AVL Tree running rate (search):
-(insert here)
+<img width="482" height="299" alt="Screenshot 2025-10-19 at 4 06 58 PM" src="https://github.com/user-attachments/assets/4ebcef23-8c32-4c57-82c8-c7b50015ad8a" />
+
 
 ## Submission:
 
