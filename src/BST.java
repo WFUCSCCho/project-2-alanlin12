@@ -62,7 +62,6 @@ class BST<T extends Comparable<T>>{
     public void remove(T val){
         Node<T> temp = searchHelp(root, val);
         if(temp != null){
-            T val1 = temp.value();
             root = removeHelp(root, val);
             nodecount--;
         }
